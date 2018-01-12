@@ -30,7 +30,15 @@ mvn clean install
 
 Install the marketplace package using the Admin center or using `nuxeoctl`.
 
-## Support
+Add a `userResolverClass` parameter to your authenticators contribution in Nuxeo Studio:
+
+```
+<parameter name="userResolverClass">org.nuxeo.labs.okta.multitenant.authentication.OktaUserResolver</parameter>
+```
+
+A full Studio contribution example is provided in the "studio" folder, as well as an icon for the login button. 
+
+# Support
 
 **These features are not part of the Nuxeo Production platform.**
 

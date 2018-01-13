@@ -26,6 +26,7 @@
     <package>nuxeo-jsf-ui</package>
     <!-- If you require WEB UI package:  -->
     <!-- <package>nuxeo-web-ui</package> -->
+    <package>saml2-authentication</package>
   </dependencies>
   <!-- Conflicts with other packages -->
   <!-- <conflicts> -->

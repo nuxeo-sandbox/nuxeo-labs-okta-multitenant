@@ -1,7 +1,0 @@
-<component name="org.nuxeo.labs.okta.multitenant.security">
-
-    <extension target="org.nuxeo.ecm.core.security.SecurityService" point="policies">
-        <policy name="design" class="org.nuxeo.labs.okta.multitenant.security.TenantPolicy" order="0" />
-    </extension>
-
-</component>
